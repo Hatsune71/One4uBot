@@ -31,8 +31,7 @@ echo -E "                                                              "
 sleep 5
 clear
 
-pkg update && pkg upgrade -y
-pkg install clang curl git libcrypt libffi libiconv libjpeg* libjpeg-turbo libwebp libxml2 libxslt make ndk-sysroot openssl postgresql python readline wget zlib -y
+sudo apt install clang curl git libcrypt libffi libiconv libjpeg* libjpeg-turbo libwebp libxml2 libxslt make ndk-sysroot openssl postgresql python readline wget zlib -y
 
 git clone https://github.com/mkaraniya/OpenUserBot.git
 cd OpenUserBot
